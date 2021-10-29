@@ -1,0 +1,16 @@
+{
+  "name": "test-nuance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init-app":"cd client & npm i &  cd ../services/api & npm i & cd ../auth & npm i & cd ../ticket & npm i & cd ../user & npm i ",
+    "serve-client":"cd client & ng serve --open & cd ../auth & npm run start:dev",
+    "serve-service:auth": "cd services/auth & npm run start:dev",
+    "serve-service:api": "cd services/api & npm run start:dev",
+    "serve-service:user": "cd services/user & npm run start:dev",
+    "serve-service:ticket": "cd services/ticket & npm run start:dev"
+  },
+  "author": "Laurent",
+  "license": "ISC"
+}

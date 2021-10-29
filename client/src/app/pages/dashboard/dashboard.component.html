@@ -1,0 +1,26 @@
+<div class="dashboard">
+    <div class="navigation">
+        <ul>
+            <li class="nav-item"><a routerLink="/dashboard"><i class="fas fa-tachometer-alt"></i> Tableau de bord</a></li>
+            <li class="nav-item"><a routerLink="tickets"><i class="fas fa-ticket-alt"></i> Tickets</a></li>
+            <li class="nav-item"><a routerLink="stats"><i class="fas fa-chart-area"></i> Statistiques</a> </li>
+            <li class="separator"></li>
+            <li class="nav-item"><a routerLink="settings"><i class="fas fa-cog"></i> Paramètres</a></li>
+        </ul>
+    </div>
+    <div class="view container">
+        <div class="head-dashboard">
+            <h2>{{title}}</h2>
+            <div class="tools">
+               <ul>
+                   <li><i class="fas fa-search"></i></li>
+                   <li><i class="fas fa-bell"></i></li>
+               </ul>
+            </div>
+            <div class="profile">
+                <h3>Nom Prénom <i class="fas fa-user"></i></h3>
+            </div>
+        </div>
+        <router-outlet (activate)='onActivate($event)'></router-outlet>
+    </div>
+</div>

@@ -1,0 +1,89 @@
+.dashboard {
+  display: flex;
+  height: 100%;
+}
+
+.view {
+  background-color: #f7f8fc;
+  height: 100%;
+  flex: 10;
+}
+
+.navigation {
+  color: #dde2ff;
+  flex: 2;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  
+}
+
+.navigation li {
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 4px
+}
+
+.navigation i{
+  margin-right: 24px;
+}
+
+.navigation a{
+  text-decoration: none;
+  color: #dde2ff;
+
+  
+}
+
+.navigation ul {
+  margin-top: 128px;
+}
+
+.separator{
+  border-top: 1px solid;
+}
+
+.selected{
+  background-color: rgba(159, 162, 180,0.5);
+  border-left: 3px solid;
+}
+
+.head-dashboard{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1px;
+
+
+}
+
+.head-dashboard h2{
+  flex: 8;
+}
+
+.tools ul{
+  display: flex;
+  justify-content: space-around;
+  border-right: 1px solid;
+  margin-right: 32px;
+
+
+}
+
+.tools li{
+  list-style: none;
+}
+
+.tools{
+  flex: 2;
+  color: #C5C7CD;
+
+}
+
+.profile{
+  flex: 2;
+
+}
+
+.head-dashboard :is(h2,ul,h3){
+  margin-top: 19px;
+}

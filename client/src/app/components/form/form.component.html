@@ -1,0 +1,11 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit($event)" [class]="params.name.concat('-','form')">
+  <div *ngFor="let field of params.fields" [class]="params.name.concat('-','form-field')">
+    <label [for]="field.name">{{field.label}}</label>
+    <input [type]="field.type" [id]="field.name" [name]="field.name" [formControlName]="field.name" />
+    <p class="error-field" *ngIf="isNotValid(field.name)">Non valide</p>
+  </div>
+  <div>
+    <!-- <button *ngFor="let action of options.actions" (click)="action.action()" type="button">{{action.label}}</button> -->
+    <button [class]="params.name.concat('-','form-submit')">{{params.nameSubmit}}</button>
+  </div>
+</form>

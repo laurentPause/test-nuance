@@ -1,0 +1,31 @@
+/* Font awesome icons */
+@import "./assets/fontawesome-free-5.15.4-web/css/all.css";
+
+.body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #363740;
+}
+
+.card {
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1px solid #dfe0eb;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 32px;
+}
+
+.center-content {
+  text-align: center;
+  position: relative;
+  top: 10%;
+}
+
+.container{
+  padding-left: 30px;
+}
+

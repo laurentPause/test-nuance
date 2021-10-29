@@ -1,0 +1,8 @@
+ <div class="center-content">
+   <div class="card">
+     <h1>Connexion</h1>
+     <p>Entrez votre identifiant et mot de passe</p>
+     <app-form [params]="paramsForm" (submit)="submitForm($event)" ></app-form>
+     <p>Pas de compte ? <a routerLink="../register">S'enregistrer</a></p>
+   </div>
+ </div>

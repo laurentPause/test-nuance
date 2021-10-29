@@ -1,0 +1,31 @@
+/services/ticket/node_modules
+/services/auth/node_modules
+/services/api/node_modules
+/services/user/node_modules
+/client/src/assets/fontawesome-free-5.15.4-web
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+/services/auth/dist
+/services/api/dist
+/services/ticket/dist
+/services/user/dist
